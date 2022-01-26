@@ -94,49 +94,24 @@
   margin: 0 0 26px 40px;
 }
 
-.cover {
-  background-image: url(/images/19.png);
-  width: 1184px;
-  height: 740px;
-  z-index: -8;
-}
-.cover__title {
-  width: 560px;
-  height: 152px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  text-align: center;
-}
-.cover__subtitle {
-  width: 360px;
-  height: 66px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: end;
-}
-.cover__overlay {
-}
-.cover__background {
-  width: 1184px;
-  height: 740px;
-}
-
 
 
 .footer {
-  border: 1px solid red;
   width: 1184px;
   height: 18px;
   margin-top: 92px;
 }
 
-.container {
+.footer__container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.footer__link {
+  margin-right: 18px;
+}
+
+.span-list {
+  margin: 0;
 }
