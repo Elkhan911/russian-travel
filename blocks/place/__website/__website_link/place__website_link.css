@@ -1,0 +1,11 @@
+.place__website_link {
+  grid-area: place__website;
+  border: 1px solid red;
+  width: 456px;
+  text-decoration-line: underline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 48px 40px;
+}
