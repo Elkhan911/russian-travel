@@ -1,7 +1,7 @@
 .header__lang_container {
-  margin-top: 46px;
-  margin-right: 48px;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
   font-size: 24px;
   line-height: 28px;
+  text-align: right;
 }

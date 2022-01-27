@@ -1,6 +1,11 @@
 .intro__list {
   width: 690px;
-
-  margin: 33px 0 0 108px;
+  height: 90px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }

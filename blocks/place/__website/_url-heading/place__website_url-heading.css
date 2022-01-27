@@ -1,12 +1,12 @@
 .place__website_url-heading {
   grid-area: place__website;
-  border: 1px solid red;
   width: 456px;
+  height: 12px;
+
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
-  margin: 0 0 0 40px;
   color: #aaaaaa;
 }
