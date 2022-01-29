@@ -231,7 +231,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 42px;
-    line-height: 46px;  
+    line-height: 46px;
   }
 
   .place__image {
@@ -248,7 +248,28 @@
   }
 
   .footer {
-    max-width: 320px;
+    max-width: 186px;
     margin-top: 88px;
   }
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .footer__link {
+    width: 74px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 0 32px 0;
+  }
 }
+
+
+
+/* Ревьюеру
+У меня явно плохо получилось 320px. 
+Подсветите пожалуйста ошибки, которые есть в работе, чтоб я их исправил и к формату 320 пришел уже без ошибок
