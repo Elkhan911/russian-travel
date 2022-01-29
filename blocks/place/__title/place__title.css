@@ -1,12 +1,15 @@
 .place__title {
-  outline: springgreen 1px solid;
   grid-area: place__title;
-  width: 460px;
+  max-width: 460px;
+  margin-bottom: 48px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-
-  align-items: baseline;
 }

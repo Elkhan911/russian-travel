@@ -21,3 +21,20 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+
+@media screen and (max-width: 768px) {
+  .page {
+    color: #b0e0e6;
+  }
+}
+@media screen and (max-width: 320px) {
+  .page {
+    color: #87ceeb;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+    color: #00ffff;
+  }
+}
