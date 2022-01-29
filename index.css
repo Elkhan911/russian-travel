@@ -106,7 +106,7 @@
 
   .intro {
     max-width: 720px;
-    margin-bottom: 88px;
+    margin: 0 auto 88px;
   }
 
   .photo-grid {
@@ -114,6 +114,7 @@
     grid-template-columns: repeat(2, 0.1fr);
     grid-template-rows: repeat(6, 0.1fr);
     gap: 16px;
+    justify-content: center;
   }
 
   .places {
@@ -153,12 +154,12 @@
 @media screen and (max-width: 320px) {
   .header {
     max-width: 288px;
-    margin: 16px auto 48px;
+    margin: 16px 16px 48px 16px;
   }
 
   .lead {
     max-width: 320px;
-    margin-bottom: 88px;
+    margin-bottom: 0 auto 88px;
   }
 
   .lead__title {
@@ -268,8 +269,7 @@
   }
 }
 
-
-
 /* Ревьюеру
 У меня явно плохо получилось 320px. 
 Подсветите пожалуйста ошибки, которые есть в работе, чтоб я их исправил и к формату 320 пришел уже без ошибок
+*/
