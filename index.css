@@ -42,7 +42,7 @@
 @import url();
 @import url();
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .header {
     max-width: 928px;
     margin-bottom: 48px;
@@ -89,7 +89,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
   .header {
     max-width: 720px;
     margin: auto;
@@ -273,3 +273,73 @@
 У меня явно плохо получилось 320px. 
 Подсветите пожалуйста ошибки, которые есть в работе, чтоб я их исправил и к формату 320 пришел уже без ошибок
 */
+
+.o-places {
+  border: 1px solid red;
+  max-width: 984px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  padding-bottom: 92px;
+}
+.o-place {
+  border: 1px solid salmon;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  padding-bottom: 80px;
+}
+.o-place__title {
+  border: 1px solid salmon;
+  width: 460px;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  padding: 0 40px 48px 0;
+  margin: 0;
+}
+.o-place__website {
+  border: 1px solid salmon;
+  width: 484px;
+  align-self: flex-end;
+  padding-bottom: 48px;
+}
+.o-place__website_url-heading {
+  border: 1px solid salmon;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #aaaaaa;
+  margin: 0 0 12px 0;
+  letter-spacing: 2px;
+}
+.o-place__website_link {
+  border: 1px solid salmon;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: opacity 0.5s ease-in;
+}
+.o-place-containter {
+  border: 1px solid salmon;
+  display: flex;
+  flex-direction: row;
+}
+.o-place-container__image {
+  border: 1px solid salmon;
+  max-width: 460px;
+  max-height: 460px;
+  margin-right: 40px;
+}
+.o-place-container__paragrapg {
+  border: 1px solid salmon;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 484px;
+  font-size: 18px;
+  line-height: 29.34px;
+  font-weight: 400;
+  margin: 26px 0 0 0;
+}
