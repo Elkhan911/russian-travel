@@ -4,5 +4,6 @@
   justify-content: space-between;
   align-items: flex-end;
   max-width: 1184px;
-  margin: 28px auto 56px;
+  margin: auto;
+  padding: 28px 0 56px;
 }

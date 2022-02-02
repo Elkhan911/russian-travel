@@ -8,7 +8,8 @@
   line-height: 22px;
   text-decoration-line: underline;
   line-height: 22px;
-  margin-bottom: 48px;
+  margin: 0;
+  padding-bottom: 48px;
 }
 
 .place__website_link:hover {

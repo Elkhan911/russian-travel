@@ -1,6 +1,7 @@
 .photo-grid {
   max-width: 1184px;
-  margin: 0 auto 92px;
+  margin: auto;
+  padding: 0 0 92px;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -8,4 +9,10 @@
   gap: 16px;
 
   grid-auto-flow: column;
+
+
 }
+
+
+/*  grid-template-columns: repeat(auto-fill, minmax(0.5fr, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(0.5fr, 1fr));*/
