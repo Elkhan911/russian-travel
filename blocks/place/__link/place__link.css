@@ -2,15 +2,14 @@
   grid-area: place__website;
 
   font-size: 18px;
-  line-height: 22px;
   text-decoration-line: underline;
   line-height: 22px;
   margin: 0;
   padding-bottom: 48px;
+  color: white;
+
 }
 
 .place__link:hover {
   opacity: 0.8;
 }
-
-
