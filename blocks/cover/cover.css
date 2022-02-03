@@ -1,6 +1,31 @@
 .cover {
-  background-image: url(/images/19.png);
-  max-width: 1184px;
-  z-index: -1;
+  width: 100%;
   margin: auto;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
