@@ -1,7 +1,5 @@
 .place__website_link {
   grid-area: place__website;
-  max-width: 456px;
-
 
   font-size: 18px;
   line-height: 22px;
@@ -14,3 +12,4 @@
 .place__website_link:hover {
   opacity: 0.8;
 }
+
