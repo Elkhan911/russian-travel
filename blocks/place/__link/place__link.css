@@ -1,6 +1,5 @@
 .place__link {
   grid-area: place__website;
-
   font-size: 18px;
   text-decoration-line: underline;
   line-height: 22px;

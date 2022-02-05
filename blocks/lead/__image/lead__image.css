@@ -3,7 +3,5 @@
   display: block;
   margin: auto;
   padding: 0 0 8px;
-
-  /* ?*/
   object-fit: contain;
 }
