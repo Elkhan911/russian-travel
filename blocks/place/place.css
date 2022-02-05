@@ -26,6 +26,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
     column-gap: 28px;
+    padding-bottom: 73px;
   }
 }
 
@@ -40,5 +41,6 @@
       "place__image"
       "place__paragraph";
     gap: 32px;
+    padding-bottom: 50px;
   }
 }
