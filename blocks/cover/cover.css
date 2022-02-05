@@ -1,7 +1,7 @@
 .cover {
   max-width: 1184px;
   min-height: 740px;
-  background-image: url(../../../images/19.png);
+  background-image: url(../../images/19.png);
   z-index: -1;
   display: flex;
   justify-content: center;
