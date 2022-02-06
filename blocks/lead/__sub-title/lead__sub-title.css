@@ -8,12 +8,6 @@
   font-weight: normal;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .lead__sub-title {
-    padding-bottom: 56px;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .lead__sub-title {
     padding-bottom: 56px;
