@@ -2,6 +2,7 @@
   padding-right: 18px;
   opacity: 1;
   color: white;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {
